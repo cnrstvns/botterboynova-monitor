@@ -1,0 +1,28 @@
+{
+    "name": "jeesh-nova",
+    "version": "1.0.0",
+    "description": "BotterBoyNova Monitor for Youtube",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/connorstevens/jeesh-nova.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/connorstevens/jeesh-nova/issues"
+    },
+    "homepage": "https://github.com/connorstevens/jeesh-nova#readme",
+    "dependencies": {
+        "color": "^3.1.2",
+        "discord-webhook-node": "^1.0.7",
+        "dotenv": "^8.2.0",
+        "googleapis": "^52.1.0",
+        "request": "^2.88.2",
+        "request-promise": "^4.2.5"
+    }
+}
